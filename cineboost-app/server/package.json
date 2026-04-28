@@ -1,0 +1,22 @@
+{
+  "name": "cineboost-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "google-auth-library": "^9.14.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
